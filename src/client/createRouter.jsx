@@ -4,7 +4,7 @@ import { EJSON } from 'meteor/ejson';
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { render } from 'react-dom';
-import { Provider } from 'react-intl-redux';
+import { Provider } from 'react-redux';
 import { combineReducers, createStore } from 'redux';
 import { setMessages } from '../shared/actions';
 /* eslint-enable */
