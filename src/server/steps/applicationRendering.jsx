@@ -6,7 +6,7 @@ import htmlMinifier from 'html-minifier';
 import React from 'react';
 import { StaticRouter } from 'react-router-dom';
 import { renderToString } from 'react-dom/server';
-import { Provider } from 'react-intl-redux';
+import { Provider } from 'react-redux';
 import Helmet from 'react-helmet';
 import { ServerStyleSheet } from 'styled-components';
 /* eslint-enable */
